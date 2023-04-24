@@ -1,2 +1,3 @@
-package PACKAGE_NAME;public interface WebPage {
+public interface WebPage {
+    public void renderPage(String url) throws Exception;
 }
